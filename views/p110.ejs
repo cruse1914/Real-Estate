@@ -1,0 +1,212 @@
+<%- include('partials/header') %>
+<div class="p1">
+  <img src="image/p111.jpg" alt="">
+  <div class="headnav" id="navbar">
+    <h1>TOWN | EAST</h1>
+    <div class="row headnava">
+
+      <a  style="margin-left:40%; color:white;cursor:pointer;" id="myBtn">Gallery</a>
+      <div class="headnavaa">
+        <a style="margin-left:52%; color:White;cursor:pointer;" id="myBtn1">Project Details</a>
+      </div></div>
+    </div>
+        <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+
+<div class="modal-body">
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div class="carousel-inner">
+  <div class="carousel-item active d-block1">
+    <img class="d-block" src="image/p111.jpg" alt="First slide">
+  </div>
+  <div class="carousel-item d-block1">
+    <img class="d-block" src="image/p112.jpg" alt="Second slide">
+  </div>
+</div>
+<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+
+</div>
+
+      </div>
+
+    </div>
+
+      <!-- The Modal -->
+      <div id="myModal1" class="modal" style="color:white;">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close1">&times;</span>
+
+          <h2 style="color:white; margin-left: 10%;">Bankside Master Plan</h2>
+          <br /><br />
+        <div class="col" style="margin-left:10%;">
+          <h6><b>Neighborhood:</b></h6>
+          <h6><b>Client:</b></h6>
+          <h6><b>Project Type:</b></h6>
+          <h6><b>Status:</b></h6>
+          <h6><b>Image Credit:</b></h6>
+        </div>
+        <div class="navproad">
+        <div class="col" style="margin-left:30%;">
+          <h6>South Bronx</h6>
+          <h6>Brookfield Asset Management</h6>
+          <h6>Master Plan</h6>
+          <h6>In Progress</h6>
+          <h6>ArX Solutions</h6>
+        </div></div>
+        <div class="navpro1">
+        <div class="navpro">
+          <h6>Rather than creating a building with the intention of melding it into its<br />
+        surroundings, Bankside gave Town East Architects a unique opportunity<br />
+        to create an entire neighborhood, two projects that are linked by the<br />
+      waterway and are on either side of the 3rd Avenue Bridge which<br />
+    connects the Bronx to Manhattan. Well serviced by subway access,<br />
+    this up and coming neighborhood is rich with culture and local flavor. <br />
+    Town East’s new Master Plan will bring new commercial, retail, culture,<br />
+  and residential development to the area, along with a new park along<br />
+the waterfront that will add new ways for the residents to connect to<br />
+the waterfront.</h6>
+        </div></div>
+    <br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+
+      </div>
+  </div>
+  <div class="p110headh1" style="margin-top:-44%;margin-left:30%;position:absolute;color:white;">
+    <h1 class="p110head" style="text-align:center;">Bankside Master Plan</h1>
+  </div>
+<div class="p1a">
+  <img src="image/p112.jpg" alt="">
+</div>
+<div class="p1bc">
+<div class="p1b">
+  <a href="/p1"> <div class="container2">
+<img src="/image/p1.jpg" alt="Avatar" class="std2">
+<div class="middle2">
+  <div class="text" style="font-size:3vw;">Seaport Residences</div>
+</div>
+</div>
+</a>
+<a href="/p2">
+  <div class="std22">
+    <div class="container2" style="margin-top:-48.3%;margin-left:50%;">
+<img src="/image/p2.jpg" alt="Avatar" class="std2">
+<div class="middle2">
+<div class="text" style="font-size:3vw;">363 Bond</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+
+      <button id="navbar1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav " id="navbar1 navbar" style="margin-left:25%;">
+              <li class="nav-item">
+                  <a class="nav-link" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/project">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/map">Map</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/studio">Studio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+              </li>
+            </ul>
+
+</div>
+</nav>
+  <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.bottom = "0";
+  } else {
+    document.getElementById("navbar").style.bottom = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<script>
+// Get the modal
+var modal1 = document.getElementById("myModal1");
+
+// Get the button that opens the modal
+var btn1 = document.getElementById("myBtn1");
+
+// Get the <span> element that closes the modal
+var span1 = document.getElementsByClassName("close1")[0];
+// When the user clicks the button, open the modal
+btn1.onclick = function() {
+  modal1.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() {
+  modal1.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
+}
+</script>
+<%- include('partials/footer') %>

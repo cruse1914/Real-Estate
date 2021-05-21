@@ -1,0 +1,87 @@
+<%- include('partials/header') %>
+<section id="mp">
+<div class="">
+  <br>
+  <h1>T | E</h1><br>
+  <h5><b>Project Park</b></h5><br>
+  <hr style="background-color:white;width:15%;"><br>
+  <h5><b>Brooklyn</b></h5>
+  <a href="/map1" style="color:white;"><p>363 Bond</p></a>
+  <a href="/map2" style="color:white;"><p>365 Bond</p></a>
+<br>
+  <h5><b>Chelsea</b></h5>
+  <a href="/map3" style="color:white;"><p>The d'Orsay</p></a>
+<br>
+<h5><b>East Harlem</b></h5>
+<a href="/map4" style="color:white;"><p>North Park Tower </p></a><br>
+
+<h5><b>Long Island City</b></h5>
+<a href="/map5" style="color:white;"><p>Tower 28</p></a><br>
+
+<h5><b>Financial District</b></h5>
+<a href="/map6" style="color:white;"><p>Seaport Residences</p></a>
+<a href="/map7" style="color:white;"><p>The Trump Building </p></a>
+<a href="/map8" style="color:white;"><p>130 William </p></a><br>
+
+<h5><b>TriBeCa</b></h5>
+<a href="/map9" style="color:white;"><p>56 Leonard Street </p></a><br>
+
+<h5><b>Upper West Side</b></h5>
+<a href="/map10" style="color:white;"><p>Waterline Square </p></a><br>
+
+
+<h5><b>Upper East Side</b></h5>
+<a href="/map11" style="color:white;"><p>The Plaza Hotel </p></a><br>
+
+</div>
+<div class="mapmp">
+  <iframe class="mapmp" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2425.9539593886334!2d-74.00694218459523!3d40.705555579332625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x89a4ad5957c07cb7!2sSeaport%20Residences!5e1!3m2!1sen!2sin!4v1612380355346!5m2!1sen!2sin" width="1020" height="1170" style="margin-left:100%;margin-top:-500%;"></iframe>
+</div>
+<!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+
+      <button id="navbar1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav " id="navbar1 navbar" style="margin-left:25%;">
+              <li class="nav-item">
+                  <a class="nav-link" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/project">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/map">Map</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/studio">Studio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+              </li>
+            </ul>
+
+</div>
+</nav>
+  <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.bottom = "0";
+  } else {
+    document.getElementById("navbar").style.bottom = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+</section>
+
+</body>
+</html>

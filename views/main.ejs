@@ -1,0 +1,234 @@
+<%- include('partials/header') %>
+
+<style media="screen">
+
+.slideshow {
+  list-style: none;
+  z-index: 1;
+}
+
+.slideshow li span {
+  width: 474%;
+  height: 151%;
+  position: absolute;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-animation: imageAnimation 24s linear infinite 0s;
+  -moz-animation: imageAnimation 24s linear infinite 0s;
+  animation: imageAnimation 24s linear infinite 0s;
+}
+
+.no-cssanimations .slideshow li span { opacity: 1; }
+@-webkit-keyframes
+imageAnimation { 0% {
+ opacity: 0;
+ -webkit-animation-timing-function: ease-in;
+}
+ 12.5% {
+ opacity: 1;
+ -webkit-animation-timing-function: ease-out;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+
+@-moz-keyframes
+imageAnimation { 0% {
+ opacity: 0;
+ -moz-animation-timing-function: ease-in;
+}
+ 12.5% {
+ opacity: 1;
+ -moz-animation-timing-function: ease-out;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+
+@keyframes
+imageAnimation { 0% {
+ opacity: 0;
+ -webkit-animation-timing-function: ease-in;
+ -moz-animation-timing-function: ease-in;
+ animation-timing-function: ease-in;
+}
+ 12.5% {
+ opacity: 1;
+ -webkit-animation-timing-function: ease-out;
+ -moz-animation-timing-function: ease-out;
+ animation-timing-function: ease-out;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+
+@-webkit-keyframes
+titleAnimation { 0% {
+ opacity: 0;
+}
+ 12.5% {
+ opacity: 1;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+
+@-moz-keyframes
+titleAnimation { 0% {
+ opacity: 0;
+}
+ 12.5% {
+ opacity: 1;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+
+@keyframes
+titleAnimation { 0% {
+ opacity: 0;
+}
+ 12.5% {
+ opacity: 1;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+.slideshow li:nth-child(1) span { background-image: url(image/1.jpg); }
+
+.slideshow li:nth-child(2) span {
+  background-image: url(image/p1.jpg);
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.slideshow li:nth-child(3) span {
+  background-image: url(image/p3.jpg);
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+.slideshow li:nth-child(4) span {
+  background-image: url(image/contact.jpg);
+  -webkit-animation-delay: 18s;
+  -moz-animation-delay: 18s;
+  animation-delay: 18s;
+}
+</style>
+<section style="position:absolute;">
+
+
+<ul class="slideshow">
+<li> <span>Slide One</span> </li>
+<li> <span>Slide Two</span> </li>
+<li> <span>Slide Three</span> </li>
+<li> <span>Slide Four</span> </li>
+</ul>
+
+
+<div class="head">
+  <div class="headh1">
+  <h1>TOWN</h1>
+  </div>
+  <h1 style="margin-left:240%;">|</h1>
+  <div class="headh2">
+  <h1 style="margin-left:250%;">EAST</h1>
+  </div>
+</div>
+<div class="head2head">
+<div class="head2" style="margin-top:100%;">
+  <h1 style="margin-left:10%;"><b>Strategic</b></h1>
+  <div class="head2in">
+<h1 style="margin-left:95%;margin-top:-27%;"><b>independent</b></h1>
+</div>
+<div class="head2pro">
+    <h1 style="margin-left:205%;margin-top:-27%;"><b>property</b></h1>
+    </div>
+      <h1 style="margin-left:10%;"><b>investment</b></h1>
+      <div class="head2ad">
+      <h1 style="margin-left:110%;margin-top:-27%;"><b>advisors.</b></h1>
+      </div>
+</div></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+
+      <button id="navbar1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav " id="navbar1 navbar" style="margin-left:25%;">
+              <li class="nav-item">
+                  <a class="nav-link" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/project">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/map">Map</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/studio">Studio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+              </li>
+            </ul>
+
+</div>
+</nav>
+</section>
+</body>
+</html>

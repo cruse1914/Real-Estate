@@ -1,0 +1,96 @@
+<%- include('partials/header') %>
+<section>
+  <div class="headd">
+    <img src="image/studio.jpg" alt="">
+    <h1>TOWN | EAST</h1>
+  </div>
+  <div class="headd2">
+    <h1>Together we've designed many of the most<br>prominent structures in New York City.</h1>
+  </div>
+</section>
+<section id="pro1"><br><br><br>
+  <div class="std row" style="margin-top:50%;">
+
+ <div class="container3">
+    <a href="/image/s1.jpg"> <img src="/image/s1.jpg" alt="Avatar" class="std1" style="margin-left:10%;width:30%;"></a>
+  </div>
+
+  <div class="container3">
+<a href="/image/s2.jpg">  <img src="/image/s2.jpg" alt="Avatar" class="std1" style="margin-left:43%;width:40%;margin-top:-41%;"></a>
+  </div>
+
+    <div class="container3">
+       <a href="/image/s3.jpg"> <img src="/image/s3.jpg" alt="Avatar" class="std1" style="margin-left:43%;width:40%;margin-top:-13%;"></a>
+     </div>
+
+     <div class="container3">
+   <a href="/image/s4.jpg">
+     <div class="imgcon">
+     <img src="/image/s4.jpg" alt="Avatar" class="std1" style="margin-left:51%;width:47%;"></div></a>
+     </div>
+
+    <div class="container3">
+       <a href="/image/s5.jpg">
+               <div class="imgcon4">
+                  <img src="/image/s5.jpg" alt="Avatar" class="std1" style="margin-left:44%;width:40%;"></div></a>
+     </div>
+
+     <div class="container3">
+    <a href="/image/s6.jpg">
+      <div class="imgcon2">
+        <img src="/image/s6.jpg" alt="Avatar" class="std1" style="margin-left:10%;margin-top:-85%;width:30%;"></div></a>
+     </div>
+
+      <div class="container3">
+       <a href="/image/s7.gif">
+         <div class="imgcon3">
+            <img src="/image/s7.gif" alt="Avatar" class="std1" style="margin-left:10%;margin-top:-40%;width:30%;"></div></a>
+        </div>
+
+  </div><br><br><br><br>
+  <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+
+        <button id="navbar1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav " id="navbar1 navbar" style="margin-left:25%;">
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/project">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/map">Map</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/team">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/studio">Studio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact">Contact</a>
+                </li>
+              </ul>
+
+</div>
+</nav>
+    <script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.bottom = "0";
+    } else {
+      document.getElementById("navbar").style.bottom = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+  </script>
+</section>
+<%- include('partials/footer') %>

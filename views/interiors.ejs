@@ -1,0 +1,102 @@
+<%- include('partials/header') %>
+<section>
+  <div class="headd">
+    <img src="image/project.jpg" alt="">
+    <h1>TOWN | EAST</h1>
+  </div>
+  <div class="headd2">
+    <h1>Together we've designed many of the most<br>prominent structures in New York City.</h1>
+  </div>
+</section>
+<section id="pro">
+  <div class="headd1">
+    <a href="/project" style="color:gray;">All</a>
+    <a href="/residential" style="color:gray;">Residential</a>
+    <a href="/interiors">Interiors</a>
+    <a href="/comm" style="color:gray;">Commercial/Hospitality</a>
+    <a href="/colla" style="color:gray;">Collaborations</a>
+    <a href="/master" style="color:gray;">Master</a>
+  </div>
+  <br><br>
+  <div class="st">
+    <br><br>
+    <div class="" style="position:absolute;color:white;text-align:center;margin-left:25%;">
+<p class="intp" >We collaborate with our affiliated interiors firm, Whitehall to create holistic buildings that are as<br />
+   thoughtfully designed on the interior as they are on the exterior.</p></div><br>
+   <br><br>
+<a href="/p4"><div class="container2"  style="margin-top:%;margin-left:10%;">
+<img src="/image/p4.jpg" alt="Avatar" class="std1" >
+<div class="top" style="margin-left:-5%;">
+<div class="text">Interiors, Residential</div>
+</div>
+<div class="middle1" style="margin-left:-1%;">
+  <div class="text"><a href="/p4" style="color:white;text-decoration:none;font-size:4vw;">Tower 28</a></div>
+  <hr class="vp">
+  <div class="text1">
+  <a href="/p4" style="color:white;text-decoration:none;font-size:1.5vw;">  View Project <i class="fas fa-arrow-right"></i></a>
+  </div>
+</div>
+</div></a>
+
+<a href="/p6">
+  <div class="std12 std122"><div class="container2" style="margin-left:53.5%;margin-top:-59.5%;">
+<img src="/image/1.jpg" alt="Avatar" class="std1">
+<div class="top" style="margin-left:-4%;">
+<div class="text">Interiors, Residential</div>
+</div>
+<div class="middle1">
+  <div class="text"><a href="/p6" style="color:white;text-decoration:none;font-size:4vw;">North Park Tower</a></div>
+  <hr class="vp">
+  <div class="text1">
+  <a href="/p6" style="color:white;text-decoration:none;font-size:1.5vw;">  View Project <i class="fas fa-arrow-right"></i></a>
+  </div>
+</div></div>
+</div></a>
+  </div><br><br><br><br>
+
+  <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+
+        <button id="navbar1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav " id="navbar1 navbar" style="margin-left:25%;">
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/project">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/map">Map</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/team">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/studio">Studio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact">Contact</a>
+                </li>
+              </ul>
+
+</div>
+</nav>
+    <script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.bottom = "0";
+    } else {
+      document.getElementById("navbar").style.bottom = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+  </script>
+</section>
+<%- include('partials/footer') %>

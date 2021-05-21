@@ -1,0 +1,67 @@
+<%- include('partials/header') %>
+<section class="contact">
+  <div class="hea1">
+        <img src="image/contact.jpg" alt="">
+    <h1>TOWN | EAST</h1>
+  </div>
+  <div class="hea">
+    <h1><b>With offices in both<br>Europe and Asia, our<br>boutique structure and<br>global expertise allows<br> us to work closely with<br> every client, at every<br>stage of the investment<br>process.</b></h1>
+  </div>
+  <br><br>
+    <div class="add4">
+      <h4><b>Subscribe to our mailing list</b></h4><br>
+      <div class="row">
+        <form class="control-group" action="/s" method="POST">
+      <input class="form-control btn btn-outline-light" id="inputIcon" style="margin-left:10%;width:30%;" type="text" name="name" placeholder="Name" required autofocus><input class="form-control btn btn-outline-light" style="margin-left:3%;width:40%;" type="text" name="email" id="inputIcon" placeholder="Email" required>
+      <button class="btn btn-primary btn-large" style="margin-left:2%;" type="submit"><span class="carousel-control-next-icon"></span></button>
+    </form>
+</div>
+      <p style="margin-left:5%;">By entering your name and email you will be opted to receive email communications from TOWN | EAST. For details on how we use your information, view our privacy policy.</p>
+    </div>
+    <br><br>
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+
+      <button id="navbar1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav " id="navbar1 navbar" style="margin-left:25%;">
+              <li class="nav-item">
+                  <a class="nav-link" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/project">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/map">Map</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/studio">Studio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+              </li>
+            </ul>
+
+</div>
+</nav>
+      <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.bottom = "0";
+      } else {
+        document.getElementById("navbar").style.bottom = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
+  </section>
+<%- include('partials/footer') %>
